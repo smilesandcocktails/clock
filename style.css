@@ -1,0 +1,27 @@
+#face {
+  /*position: relative*/
+}
+
+#clock img {
+  /*looks for the clock first and all the image*/
+  display: inline-block;
+  position: absolute;
+}
+
+
+#hour {
+  position: relative
+
+}
+
+#minute {
+  z-index: 2
+  position: relative
+
+}
+
+#second {
+  z-index: 3
+  position: relative
+
+}
